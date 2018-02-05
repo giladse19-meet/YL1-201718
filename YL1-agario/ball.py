@@ -14,6 +14,9 @@ class Ball(Turtle):
         self.y = y
         self.dx = dx
         self.dy = dy
+        self.pu()
+        self.goto(x,y)
+        
 
     def move(self,screen_width,screen_height):
         current_x = self.xcor()
